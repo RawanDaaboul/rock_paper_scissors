@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">R.P.C.S</string>
+    <string name="game_logo">Game logo</string>
+    <string name="speaker_on_off">speaker:on/off</string>
+    <string name="info_about_the_game">info about the game</string>
+    <string name="rules_of_the_game">rules of the game</string>
+    <string name="player_vs_pc_mode">player vs pc mode</string>
+    <string name="player_vs_player_mode">player vs player mode</string>
+</resources>

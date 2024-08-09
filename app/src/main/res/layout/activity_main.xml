@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#6DA945"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:contentDescription="@string/game_logo"
+        android:layout_gravity="center"
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        android:src="@drawable/logo" />
+    <ImageButton
+        android:contentDescription="@string/player_vs_player_mode"
+        android:id="@+id/imagebtnpvp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/button1" />
+
+    <ImageButton
+        android:contentDescription="@string/player_vs_pc_mode"
+        android:id="@+id/imagebtn1vspc"
+        android:layout_width="300dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/button2" />
+
+    <ImageButton
+        android:contentDescription="@string/rules_of_the_game"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:src="@drawable/button3"
+        android:id="@+id/imagebtnrules"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:contentDescription="@string/speaker_on_off"
+            android:src="@drawable/speaker" />
+
+        <ImageButton
+            android:id="@+id/imagebtnI"
+            android:layout_width="50dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="280dp"
+            android:layout_marginTop="15dp"
+            android:contentDescription="@string/info_about_the_game"
+            android:src="@drawable/i"
+            tools:ignore="ImageContrastCheck" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
